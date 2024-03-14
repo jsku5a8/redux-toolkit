@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://elchocrud-backend-800c41e62031.herokuapp.com/api/$1"
+    }
+  ]
+}
